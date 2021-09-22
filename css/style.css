@@ -1,8 +1,8 @@
 :root {
-  --font_Family_All: 'Roboto', sans-serif ;
-  --top-nav-BG:#F7F7F7;
-  --top-fa-color:#8b8b8b;
-  --nav-bT-bG-color: #D82221 ;
+  --font_Family_All: 'Roboto', sans-serif;
+  --top-nav-BG: #F7F7F7;
+  --top-fa-color: #8b8b8b;
+  --nav-bT-bG-color: #D82221;
 }
 
 * {
@@ -317,7 +317,7 @@ header .F-main {
 .nav-bT .nav-bT-con .nav-left-bt ul li a {
   text-decoration: none;
   color: white;
-  padding: 0  12.5px;
+  padding: 0 12.5px;
   font-size: 16px;
 }
 
@@ -338,7 +338,7 @@ header .F-main {
           align-items: center;
   margin-right: 20px;
   margin-left: 20px;
-  margin: 14px  20px;
+  margin: 14px 20px;
   border-radius: 5px;
   background: white;
   cursor: pointer;
@@ -411,7 +411,8 @@ header .F-main {
   text-decoration: none;
 }
 
-.bd-example .carousel-control-prev, .bd-example .carousel-control-next {
+.bd-example .carousel-control-prev,
+.bd-example .carousel-control-next {
   position: absolute;
   top: 50%;
   bottom: 50%;
@@ -837,7 +838,8 @@ header .F-main {
   background: none;
 }
 
-.customer_opinions .main-CO .swiper-button-next, .customer_opinions .main-CO .swiper-button-prev {
+.customer_opinions .main-CO .swiper-button-next,
+.customer_opinions .main-CO .swiper-button-prev {
   position: absolute;
   top: 35%;
   width: calc(var(--swiper-navigation-size)/44 * 27);
@@ -1100,7 +1102,8 @@ header .F-main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1119,7 +1122,7 @@ header .F-main {
 .application_screens .main-AS {
   width: 50%;
   margin: auto;
-  top: 80px;
+  top: 150px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -1155,11 +1158,10 @@ header .F-main {
 }
 
 .application_screens .swiper-container {
-  top: 250px;
+  overflow-x: hidden;
   left: 50%;
   width: 100%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  padding-top: 550px;
   padding-bottom: 50px;
   cursor: pointer;
 }
@@ -1186,7 +1188,7 @@ header .F-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 150px auto  0 auto;
+  margin: 150px auto 0 auto;
 }
 
 .download_the_app .main_DTA {
@@ -1468,7 +1470,7 @@ footer .col-right ul li .fa {
   .nav-bT .nav-bT-con .nav-left-bt ul li a {
     text-decoration: none;
     color: white;
-    padding: 0  6.5px;
+    padding: 0 6.5px;
   }
   .nav-bT .nav-bT-con .nav-left-bt ul li a:focus, .nav-bT .nav-bT-con .nav-left-bt ul li a:hover {
     outline-style: none;
@@ -1484,7 +1486,7 @@ footer .col-right ul li .fa {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 10px  10px;
+    margin: 10px 10px;
     border-radius: 5px;
     background: white;
     cursor: pointer;
@@ -1504,7 +1506,7 @@ footer .col-right ul li .fa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 150px auto  0 auto;
+    margin: 150px auto 0 auto;
   }
   .download_the_app .main_DTA {
     margin: 0 auto;
@@ -1603,7 +1605,8 @@ footer .col-right ul li .fa {
     outline-style: none;
     text-decoration: none;
   }
-  .bd-example .carousel-control-prev, .bd-example .carousel-control-next {
+  .bd-example .carousel-control-prev,
+  .bd-example .carousel-control-next {
     position: absolute;
     top: 50%;
     bottom: 50%;
@@ -1999,7 +2002,8 @@ footer .col-right ul li .fa {
     font-size: 18px;
     background: none;
   }
-  .customer_opinions .main-CO .swiper-button-next, .customer_opinions .main-CO .swiper-button-prev {
+  .customer_opinions .main-CO .swiper-button-next,
+  .customer_opinions .main-CO .swiper-button-prev {
     position: absolute;
     top: 35%;
     width: calc(var(--swiper-navigation-size)/44 * 27);
@@ -2216,7 +2220,7 @@ footer .col-right ul li .fa {
   .nav-bT .nav-bT-con .nav-left-bt ul li a {
     text-decoration: none;
     color: white;
-    padding: 0  5.5px;
+    padding: 0 5.5px;
     font-size: 14px;
     font-weight: 250;
   }
@@ -2294,7 +2298,8 @@ footer .col-right ul li .fa {
     outline-style: none;
     text-decoration: none;
   }
-  .bd-example .carousel-control-prev, .bd-example .carousel-control-next {
+  .bd-example .carousel-control-prev,
+  .bd-example .carousel-control-next {
     position: absolute;
     top: 50%;
     bottom: 50%;
@@ -2615,7 +2620,7 @@ footer .col-right ul li .fa {
   .nav-bT .nav-bT-con .nav-left-bt ul li a {
     text-decoration: none;
     color: white;
-    padding: 0  5.5px;
+    padding: 0 5.5px;
     font-size: 20px;
     font-weight: 250;
     text-align: center;
@@ -2665,7 +2670,7 @@ footer .col-right ul li .fa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 150px auto  0 auto;
+    margin: 150px auto 0 auto;
   }
   .download_the_app .main_DTA {
     margin: 0 auto;
@@ -2766,7 +2771,8 @@ footer .col-right ul li .fa {
     outline-style: none;
     text-decoration: none;
   }
-  .bd-example .carousel-control-prev, .bd-example .carousel-control-next {
+  .bd-example .carousel-control-prev,
+  .bd-example .carousel-control-next {
     position: absolute;
     top: 50%;
     bottom: 50%;
@@ -3057,7 +3063,8 @@ footer .col-right ul li .fa {
     font-size: 18px;
     background: none;
   }
-  .customer_opinions .main-CO .swiper-button-next, .customer_opinions .main-CO .swiper-button-prev {
+  .customer_opinions .main-CO .swiper-button-next,
+  .customer_opinions .main-CO .swiper-button-prev {
     position: absolute;
     top: 45%;
     width: calc(var(--swiper-navigation-size)/44 * 27);
